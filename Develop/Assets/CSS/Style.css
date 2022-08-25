@@ -1,0 +1,180 @@
+:root{
+    --Prim: #3b3b3b;
+    --Seco: #00bfe6;
+}
+
+header {
+    background-color: var(--Prim);
+    color: white;
+    height: 120px;
+    padding-top: 30px;
+}
+
+header li {
+    color: white;
+    background-color: var(--Prim);
+    display: inline;
+    float: right;
+    margin: 5px;
+    padding: 5px;
+    font-size: 20px;
+    border-bottom: 5px solid var(--Seco);
+    transition: 0.5s;
+    font-weight: bold;
+}
+
+header li:hover {
+    color: var(--Prim);
+    background-color: var(--Seco);
+    transition: 0.2s;
+}
+
+.Titl {
+    background-color: var(--Seco);
+    position: absolute;
+    padding-left: 50px;
+    padding-right: 10px;
+}
+
+.Titl h1 {
+    font-size: 60px;
+    color: var(--Prim);
+}
+
+.Headon {
+    height: 500px;
+    display: block;
+    background-size: cover;
+}
+
+.Headon img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Headon div{
+    position: absolute;
+    background-color: var(--Seco);
+    position: absolute;
+    padding-left: 10px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+    right: 0%;
+    top: 500px;
+}
+
+.Headon div h1{
+    font-size: 45px;
+    color: var(--Prim);
+}
+
+section {
+    margin: 10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+section p{
+
+}
+
+section aside {
+    height: 100%;
+    border-right: 5px solid var(--Prim);
+    padding-right: 2%;
+    margin-right: 2%;
+    width: 15%;
+    float: left;
+    color: var(--Seco);
+    font-size: 30px;
+    text-align: right;
+}
+
+.bout {
+    font-size: 20px;
+}
+
+.Contact {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.Contact a{
+    padding-left: 2%;
+    padding-right: 2%;
+    color: var(--Prim);
+    background-color: white;
+    padding-top: 1%;
+    transition: 0.2s;
+    border-bottom: solid 5px var(--Seco);
+}
+
+.Contact a:hover{
+    background-color: var(--Seco);
+    transition: 0.2s;
+}
+
+.Feat {
+    margin: 2%;
+    width: 75%;
+    border: var(--Seco) 5px solid;
+    margin-left: 21%;
+    height: 500px;
+    margin-bottom: 1%;
+}
+
+.Feat img{
+    width: 100%;
+    height: 100%;
+    filter: brightness(50%);
+    transition: 1s;
+}
+
+.Feat:hover img{
+    filter: brightness(100%);
+    transition: 0.5s;
+}
+
+.Cluster {
+    margin-left: 20.5%;
+    margin-right: 4.5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.Card {
+    margin: 2%;
+    width: 550px;
+    border: var(--Seco) 5px solid;
+    height: 300px;
+}
+
+.Card img{
+    width: 100%;
+    height: 100%;
+    filter: brightness(50%);
+    transition: 1s;
+}
+
+.Card:hover img{
+    filter: brightness(100%);
+    transition: 0.5s;
+}
+
+.CardTxt {
+    position: relative;
+    padding-left: 15px;
+    padding-right: 5px;
+    background-color: var(--Seco);
+    bottom: 75px;
+}
+
+.CardTxt h1{
+    font-size: 30px;
+}
+
+.CardTxt h2{
+    font-size: 20px;
+}
